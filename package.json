@@ -1,0 +1,18 @@
+{
+  "name": "todo",
+  "version": "1.0.0",
+  "description": "To do list",
+  "main": "index.js",
+  "scripts": {
+    "start": "electronmon ."
+  },
+  "author": "Antoine Donat",
+  "license": "ISC",
+  "devDependencies": {
+    "@electron/packager": "^18.1.3"
+  },
+  "dependencies": {
+    "electron-store": "^8.1.0",
+    "electron": "^28.1.4"
+  }
+}
